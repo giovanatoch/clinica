@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.header {
+  background-color: #FCFBF9;
+  height: 107px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .logoHorizontal {
+  width: 232.75px; 
+  height: 68.73px; 
+  position: relative;
+}
+
+.logoHorizontal .union {
+  width: 232.75px; 
+  height: 68.73px;
+  left: 0px; 
+  top: 0px; 
+  position: absolute;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.contatos {
+  display: flex;
+  align-items: center;
+}
+
+.contatos img{
+  margin-right: 20px;  
+}
+
+.fale-conosco {
+  background-color: #235041;
+  color: #FCFBF9;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  background: #235041;
+}
+
+.quadro1 {
+  background: #235041;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.conteudo-texto {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.quadro1-titulo {
+  color: white; 
+  font-size: 45px; 
+  font-family: Leelawadee UI; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  word-wrap: break-word;
+}
+
+.quadro1-texto {
+  color: white; 
+  font-size: 24px; 
+  font-family: Leelawadee UI; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+
+.btn-agendar {
+  background-color:  #FCFBF9;
+  color: #235041;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 69%; 
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px; 
+  text-align: center;
+}
+
+.quadro2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.quadro2 img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .conteudo-texto {
+    width: 70%;
+  }
+
+  .quadro1-titulo {
+    font-size: 40px;
+  }
+
+  .quadro1-texto {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .contatos {
+    display: none;
+  }
+
+  .fale-conosco {
+    display: none;
+  }
+
+  .quadro1 {
+    width: 100%;
+    height: 565px;
+  }
+
+  .quadro2 {
+    width: 100%;
+  }
+}
