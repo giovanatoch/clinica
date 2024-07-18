@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #FCFBF9;
 }
@@ -146,6 +150,7 @@ body {
   }
 
   .home {
+    overflow-x: hidden;
     flex-direction: column;
   }
 
@@ -240,6 +245,10 @@ body {
 }
 
 @media screen and (max-width: 558px) {
+  .session2 {
+    overflow-x: hidden;
+  }
+
   .session2 .parte1 {
     height: 565px;
   }
@@ -398,6 +407,10 @@ body {
 }
 
 @media screen and (max-width: 558px) {
+  .session3 {
+    overflow-x: hidden;
+  }
+
   .session3 .psicologas-titulo {
     font-size: 30px;
   }
@@ -457,6 +470,9 @@ body {
 }
 
 @media screen and (max-width: 558px) {
+  .session4 {
+    overflow-x: hidden;
+  }
 
   .session4-titulo {
     margin: 30px 0 30px 0;
@@ -546,6 +562,7 @@ body {
 @media screen and (max-width: 558px) {
   .session5 {
     height: 74em;
+    overflow-x: hidden;
   }
 
   .session5 .informacoes {
