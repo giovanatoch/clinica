@@ -164,7 +164,7 @@ body {
 
   .quadro1 {
     width: 100%;
-    height: 640px;
+    height: 815px;
   }
 
   .quadro1-titulo {
@@ -172,7 +172,18 @@ body {
     text-align: unset;
     font-size: 35px;
     margin-top: -28px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .quadro1-texto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px
+  }
+
+  .quadro1 .conteudo-texto {
+    height: 582px;
   }
   
   .btn-agendar {
