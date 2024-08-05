@@ -94,7 +94,7 @@ body {
 
 .quadro1-texto {
   color: white; 
-  font-size: 24px; 
+  font-size: 23px; 
   font-family: Leelawadee UI; 
   font-weight: 400; 
   word-wrap: break-word;
@@ -115,6 +115,7 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 6px;
+  margin-top: 30px;
 }
 
 .quadro2 {
@@ -131,6 +132,8 @@ body {
 @media screen and (max-width: 1300px) {
   .conteudo-texto {
     width: 70%;
+    align-items: center;
+    text-align: center;
   }
 
   .quadro1-titulo {
@@ -139,6 +142,10 @@ body {
 
   .quadro1-texto {
     font-size: 20px;
+  }
+
+  .btn-agendar {
+    margin-top: 15px;
   }
 }
 
@@ -255,7 +262,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 1200px) {
   .session2 {
     overflow-x: hidden;
   }
@@ -328,7 +335,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 758px) {
   .session2 .parte2 .conteudo{
     margin-top: 30px;
   }
@@ -417,7 +424,7 @@ body {
   margin-top: 25px;
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 1400px) {
   .session3 {
     overflow-x: hidden;
   }
@@ -480,7 +487,7 @@ body {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 758px) {
   .session4 {
     overflow-x: hidden;
   }
@@ -570,7 +577,7 @@ body {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 1300px) {
   .session5 {
     height: 74em;
     overflow-x: hidden;
