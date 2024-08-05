@@ -129,7 +129,7 @@ body {
   max-width: 100%;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1448px) {
   .conteudo-texto {
     width: 70%;
     align-items: center;
@@ -149,7 +149,7 @@ body {
   }
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 958px) {
   .header {
     display: flex;
     flex-direction: column;
