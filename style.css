@@ -191,6 +191,7 @@ body {
 
   .quadro1 .conteudo-texto {
     height: 582px;
+    align-items: center;
   }
   
   .btn-agendar {
